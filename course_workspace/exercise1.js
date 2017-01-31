@@ -11,3 +11,7 @@ var myself = {
 };
 myself.bankAccount.deposit(3000);
 console.log(myself);
+var multiplyNumbers = function (number1, number2) {
+    return number1 * number2;
+};
+console.log(multiplyNumbers(2, 10));

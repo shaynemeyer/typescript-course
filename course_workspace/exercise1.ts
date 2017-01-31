@@ -16,3 +16,9 @@ let myself: { name: string, bankAccount: BankAccount, hobbies: string[] } = {
 myself.bankAccount.deposit(3000);
 
 console.log(myself);
+
+const multiplyNumbers = (number1: number, number2: number) => {
+    return number1 * number2;
+}
+
+console.log(multiplyNumbers(2, 10));
